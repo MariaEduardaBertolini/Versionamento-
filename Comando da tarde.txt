@@ -6,6 +6,42 @@ remote: Compressing objects: 100% (3/3), done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Receiving objects: 100% (3/3), 91.40 KiB | 30.46 MiB/s, done. 
 
+Novo: 
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Comando da tarde.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\senai\Documents\tarde\Versionamento->git add .
+
+C:\Users\senai\Documents\tarde\Versionamento->git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Comando da tarde.txt
+
+
+Novo2: 
+C:\Users\senai\Documents\tarde\Versionamento->git commit -m "Arquivo de comando da tarde.txt"
+[main 61f163b] Arquivo de comando da tarde.txt
+ Committer: unknown <senai@NSN119107.edu119.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 12 insertions(+)
+ create mode 100644 Comando da tarde.txt
 
 
 
